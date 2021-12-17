@@ -1,1 +1,13 @@
-hdsidiasdbadba
+spring:
+ profiles:
+   active: dev
+---
+spring:
+  profiles:
+  application:
+    name: dev
+---
+spring:
+  profiles:
+  application:
+    name: test
